@@ -39,7 +39,7 @@ fsl-localizer-task.slurm
 6. Run in following order:
 
 raw_2_bids-TN-parallel.slurm
-- check nifti folders
+- check nifti folders. Move axial T1w from anat folder to a folder in data/backup
 
 ME-fMRIPREP-parallel-2.slurm
 - copy the fmriprep/sub-XXX.html file and the fmriprep/sub-XXX/figures folder locally and check html file
