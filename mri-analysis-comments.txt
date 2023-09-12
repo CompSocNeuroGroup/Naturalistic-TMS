@@ -36,6 +36,8 @@ fsl-localizer-task.slurm
 
 5. On a local computer, download the NS-fmri-textfiles.R file and modify paths, make output folder (line 7). Download the psychopy .csv files from dropbox folder. Sometimes you get duplicates of each run xxxx_1.csv. Delete these before you run the *.R file. Check timings of the text files to ensure they are different across runs. Copy the textfiles to /data/behavior/${subject}/textfiles.
 
+6. Pull data from MRICORE using globus. Raw data should go in data/raw/sub-TNXXX
+
 6. Run in following order:
 
 raw_2_bids-TN-parallel.slurm
