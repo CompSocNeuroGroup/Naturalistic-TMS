@@ -7,13 +7,21 @@ CSNG/
 then within this make:
 
 data/behavior
+
 data/raw
+
 data/nifti
+
 data/output/fmriprep
+
 data/output/tendana
+
 data/output/freesurfer
+
 data/output/stats
+
 data/backup
+
 work
 
 In your /home/${your username}/ folder make a folder called:
