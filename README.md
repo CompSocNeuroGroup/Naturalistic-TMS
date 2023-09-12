@@ -33,14 +33,23 @@ analysis/csng
 3. Modify directory names in:
 
 raw_2_bids-TN-parallel.slurm
+
 ME-fMRIPREP-parallel-2.slurm
+
 run_tedana.slurm
+
 run_tedana.sh
+
 tendana_to_T1w.sh
+
 vol_localizer_feat1.sh
+
 vol_localizer_feat1.sh
+
 vol_localizer_gfeat.sh
+
 fsl-localizer-task.slurm
+
 
 4. Put the localizer-run-1.fsf and localizer_level2.fsf files in the /data/output/stats folder. Modify directory names for location of textfiles.
 
