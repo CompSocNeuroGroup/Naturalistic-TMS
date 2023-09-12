@@ -1,4 +1,4 @@
-1. In your /scratch/pkakalec/ folder make a folder called:
+1. In your /scratch/${your username}/ folder make a folder called:
 
 CSNG/
 
@@ -14,11 +14,11 @@ data/output/stats
 data/backup
 work
 
-In your /home/pkakalec folder make a folder called:
+In your /home/${your username}/ folder make a folder called:
 
 analysis/csng
 
-2. Put all the *.sh and *.slurm files in your /home/pkakalec/analysis/csng folder
+2. Put all the *.sh and *.slurm files in your /home/${your username}/analysis/csng folder
 
 3. Modify directory names in:
 
