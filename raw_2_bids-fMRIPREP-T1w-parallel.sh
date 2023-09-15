@@ -24,7 +24,7 @@ fi
     
 
     # Location of DICOMs - anatomicals
-    t1wdcmdir01=${dcmdir}/T1_MPRAGE_SAG_P2_ISO_00*
+    #t1wdcmdir01=${dcmdir}/T1_MPRAGE_SAG_P2_ISO_00*
     t1wdcmdir02=${dcmdir}/T1_MPRAGE_AXIAL_BRAINSIGHT*
     #t2wdcmdir=${dcmdir}/T2_SPACE*
 
