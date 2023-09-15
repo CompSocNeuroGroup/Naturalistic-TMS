@@ -34,7 +34,7 @@ analysis/csng
 
 raw_2_bids-TN-parallel.slurm
 
-ME-fMRIPREP-parallel-2.slurm
+ME-fMRIPREP-parallel-nofs.slurm
 
 run_tedana.slurm
 
@@ -62,7 +62,7 @@ fsl-localizer-task.slurm
 raw_2_bids-TN-parallel.slurm
 - check nifti folders. Move axial T1w from anat folder to a folder in data/backup
 
-ME-fMRIPREP-parallel-2.slurm
+ME-fMRIPREP-parallel-nofs.slurm
 - copy the fmriprep/sub-XXX.html file and the fmriprep/sub-XXX/figures folder locally and check html file
 
 run_tedana.slurm
