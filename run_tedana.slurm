@@ -22,11 +22,11 @@ module load ants/2.3.5
 
 
 #subject=$( sed "${SLURM_ARRAY_TASK_ID}q;d" /home/jthompsz/analysis/csng/cifti-participants.tsv )
-subject=C001
+subject=JT101
 export subject
 echo $subject
 
-#bash run_tedana.sh
+bash run_tedana.sh
 bash tendana_to_T1w.sh
 #bash tendana_to_MNI.sh
 #python PPI-to-hcp.py $subject

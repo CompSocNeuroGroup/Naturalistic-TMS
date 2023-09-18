@@ -275,9 +275,12 @@ set fmri(ncopeinputs) 0
 # 4D AVW data or FEAT directory (1)
 set feat_files(1) "/scratch/csng/CSNG/data/output/fmriprep/sub-NS06/func/sub-NS06_task-localizer_run-1_space-T1w_desc-optcomDenoised_bold.nii.gz"
 
-
 # Add confound EVs text file
-set fmri(confoundevs) 0
+set fmri(confoundevs) 1
+
+# Confound EVs text file for analysis 1
+set feat_files(1) "/scratch/csng/CSNG/data/output/fmriprep/sub-NS06/func/sub-NS06_task-localizer_run-1__desc-confounds_compcor24.tsv""
+
 
 # EV 1 title
 set fmri(evtitle1) "people"
