@@ -1,5 +1,7 @@
 # Naturalistic-TMS
 
+# some changes as of 9/18/23, including to the .fsf files
+
 1. In your /scratch/${your username}/ folder make a folder called:
 
 CSNG/
@@ -42,6 +44,10 @@ run_tedana.sh
 
 tendana_to_T1w.sh
 
+unconfound_localizer_fd.py
+
+unconfound-hopper.slurm
+
 vol_localizer_feat1.sh
 
 vol_localizer_feat1.sh
@@ -67,6 +73,8 @@ ME-fMRIPREP-parallel-nofs.slurm
 
 run_tedana.slurm
 - check that Optimally Denoised T1w file is created in fmriprep/func folder
+
+unconfound-hopper.slurm
 
 fsl-localizer-task.slurm
 - check cope5.feat/zstat1.nii.gz
